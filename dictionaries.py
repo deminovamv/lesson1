@@ -10,6 +10,7 @@ weather_in_the_city['temperature'] = str(int(weather_in_the_city['temperature'])
 #Задание
 #Проверьте, есть ли в словаре ключ country
 print(weather_in_the_city.get('country'))
+print('country' in weather_in_the_city)
 #Выведите значение по-умолчанию "Россия" для ключа country
 print(weather_in_the_city.get('country','Россия'))
 #Выведите на экран весь словарь
